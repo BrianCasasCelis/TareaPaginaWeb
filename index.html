@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta charset="utf-8">
+    <title>Diseño Web</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/fontello.css">
+    <link rel="stylesheet" href="css/estilos.css">
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <!-- Barra logo + Menu -->
+        <div class="row nav align-items-stretch justify-content-between">
+          <!-- Logotipo -->
+          <div class="col-md-12 col-lg logo d-flex align-items-center justify-content-center justify-content-lg-start">
+            <h2>Comenzando con la fotografía</h2>
+          </div>
+          <nav class="col-md-12 col-lg-auto menu d-flex align-items-stretch flex-wrap flex-sm-nowrap">
+            <a href="#" class="c-1 d-flex align-items-center">
+              <nav class="d-flex flex-column text-center">
+                <span>Inicio</span>
+                <li class="icono icon-home"></li>
+              </nav>
+            </a>
+            <a href="#" class="c-2 d-flex align-items-center">
+              <nav class="d-flex flex-column text-center">
+                <span>Paisajes</span>
+                <li class="icono icon-picture"></li>
+              </nav>
+            </a>
+            <a href="#" class="c-3 d-flex align-items-center">
+              <nav class="d-flex flex-column text-center">
+                <span>Retratos</span>
+                <li class="icono icon-user"></li>
+              </nav>
+            </a>
+          </nav>
+        </div>
+        <div class="row slider">
+          <div class="col">
+            <div class="carousel slide" id="slider" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#slider" data-slide-to="0" class="active"></li>
+                <li data-target="#slider" data-slide-to="1"></li>
+                <li data-target="#slider" data-slide-to="2"></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="img/slide1.jpg" alt="Slide #1" class="d-block img-fluid">
+                </div>
+                <div class="carousel-item">
+                  <img src="img/slide2.jpg" alt="Slide #2" class="d-block img-fluid">
+                </div>
+                <div class="carousel-item">
+                  <img src="img/slide3.jpg" alt="Slide #3" class="d-block img-fluid">
+                </div>
+              </div>
+              <a href="#slider" class="carousel-control-prev" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Anterior</span>
+              </a>
+              <a href="#slider" class="carousel-control-next" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Siguiente</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="container">
+        <!-- Seccion paisajes y retratos -->
+        <div class="row paisajes-retratos">
+          <div class="col">
+            <h2 class="titulo">Paisajes y Retratos</h2>
+            <div class="row galeria justify-content-center">
+              <div class="contenedor-imagen col-6 col-lg-4">
+                <img src="img/img-1.jpg" alt="" class="img-fluid imagen">
+              </div>
+              <div class="contenedor-imagen col-12 col-lg-8">
+                <img src="img/img-2.jpg" alt="" class="img-fluid imagen">
+              </div>
+              <div class="contenedor-imagen col-12 col-lg-8">
+                <img src="img/img-3.jpg" alt="" class="img-fluid imagen">
+              </div>
+              <div class="contenedor-imagen col-6 col-lg-4">
+                <img src="img/img-4.jpg" alt="" class="img-fluid imagen">
+              </div>
+              <div class="contenedor-imagen col-6 col-lg-4">
+                <img src="img/img-5.jpg" alt="" class="img-fluid imagen">
+              </div>
+              <div class="contenedor-imagen col-6 col-lg-4">
+                <img src="img/img-6.jpg" alt="" class="img-fluid imagen">
+              </div>
+              <div class="contenedor-imagen col-6 col-lg-4">
+                <img src="img/img-7.jpg" alt="" class="img-fluid imagen">
+              </div>
+            </div>
+            </div>
+          </div>
+          <div class="row acerca-de align-items-stretch">
+            <div class="col-12 col-lg-4 foto">
+              <img src="img/foto.jpg" alt="" class="rounded-circle img-fluid">
+              <p class="centro">"Centro de Servicios Financieros"</p>
+            </div>
+            <div class="col-12 col-lg-8 info">
+              <h2 class="titulo">Acerca de</h2>
+                <a href="#"><li class="icono icon-mail-alt">gpservicioalcliente@sena.edu.co</li></a>
+                <a href="#"><li class="icono icon-location">Carrera 13 No. 65 - 10</li></a>
+                <a href="#"><li class="icono icon-phone">5461600</li></a>
+            </div>
+          </div>
+        </div>
+    </main>
+    <footer>
+      <div class="container">
+        <!-- Redes Sociales -->
+        <div class="row redes-sociales-copyrigth justify-content-center">
+          <div class="col-auto">
+            <a href="#" class="icono icon-facebook-squared facebook"></a>
+            <a href="#" class="icono icon-twitter-squared twitter"></a>
+            <a href="#" class="icono icon-instagram instagram"></a>
+          </div>
+        </div>
+
+        <div class="row copyrigth justify-content-center">
+          <div class="col-auto">
+            <a href="#" class="licencia">Brian Casas Celis &#169; 2019</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="js/jquery-3.3.1.min.js" charset="utf-8"></script>
+    <script src="js/bootstrap.min.js" charset="utf-8"></script>
+  </body>
+</html>
